@@ -1,0 +1,20 @@
+@import 'src/styles/variables.scss';
+
+.channel-avatar-container {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: $color-main-white;
+	text-transform: capitalize;
+	word-break: break-word;
+
+	.channel-avatar {
+		flex-shrink: 0;
+		margin-right: 12px;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		object-fit: cover;
+		transition: all $faster-animation;
+	}
+}

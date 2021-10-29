@@ -1,0 +1,19 @@
+# Deps
+**/node_modules
+**/package-lock.json
+
+# Compiled
+**/client/build
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+.idea
+
+# Misc
+*.DS_Store
+**/*.env
